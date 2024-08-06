@@ -1,0 +1,118 @@
+/* Apply a reset to remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a fun background and font for the entire courses page */
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #ffcc00; /* Fun yellow background color */
+}
+
+/* Style the header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners for a playful look */
+  padding: 20px;
+}
+
+/* Style the courses section */
+.courses-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.courses-section h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.course-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-list li {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.course-list h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.course-list p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.course-list a {
+  display: inline-block;
+  background-color: #ff6600; /* Fun orange button color */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.course-list a:hover {
+  background-color: #ff9900; /* Hover effect */
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}

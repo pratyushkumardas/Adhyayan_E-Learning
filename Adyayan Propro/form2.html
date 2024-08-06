@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles8.css">
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Enrollment Form</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="full_name">Full Name</label>
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="label-left" for="aadhar_no">Aadhar No.</label>
+                <input class="input-left" type="text" id="aadhar_no" name="aadhar_no" placeholder="Enter Aadhar No...." />
+            </div>
+            <div class="textarea_control">
+                <label class="label-left" for="address">Address</label>
+                <textarea class="input-left" id="address" name="address" rows="1" cols="50" placeholder="Enter Address..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="course">Select a Course</label>
+                <select id="course" name="course" required>
+                    <option value="course1">Course 1</option>
+                    <option value="course2">Course 2</option>
+                    <option value="course3">Course 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea>
+            </div>
+            <button type="submit">Enroll</button>
+        </form>
+    </div>
+</body>
+</html>
